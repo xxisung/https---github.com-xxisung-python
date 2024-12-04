@@ -37,4 +37,13 @@ for i in range(1,11):
         sum += i
 print("1부터 10까지 홀수의 합계 :",sum)
 
+#1부터 100까지의 수 중에서 3의 배수만 출력하고 합계를 구하세요.
+#단, 5의 배수는 출력하지 마세요
+sum = 0
+num = 0
+for num in range(1,101):
+    if num % 3 == 0 and num % 5 !=0:
+        print("{} 3의 배수입니다".format(num))
+        sum += num
+print(sum)
     
